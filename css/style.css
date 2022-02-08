@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Rowdies', cursive;
+}
+
+body {
+  background-color: #17202A;
+  overflow: hidden;
+}
+
+.web__container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.web__container .bc_mp4 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.web__container .text_container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.web__container .text_container .kik_title {
+  color: #0ff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.web__container .text_container .logo {
+  width: 250px;
+  height: 250px;
+}
+
+.web__container .text_container .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.web__container .text_container h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.web__container .text_container .down_arrow {
+  font-size: 40px;
+  color: #fff;
+}
+
+.web__container .text_container .start_btn {
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  padding: 15px 30px;
+  letter-spacing: 3px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  -webkit-transition: background-position-y ease-in-out 250ms;
+  transition: background-position-y ease-in-out 250ms;
+  -webkit-clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%);
+          clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%);
+  background-image: radial-gradient(200% 70% at center 20%, #302c2d -30%, #322e2f 49%, #161213 50%, #161213 150%);
+}
+
+.web__container .text_container .start_btn:hover {
+  background-position-y: -50px;
+}
+
+.web__container .text_container .start_btn:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.web__container .text_container .und_text {
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
