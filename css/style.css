@@ -10,14 +10,35 @@
   font-family: 'Rowdies', cursive;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #000000 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+}
+
 body {
   background-color: #17202A;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .web__container {
   width: 100vw;
-  height: 100vh;
 }
 
 .web__container .bc_mp4 {
@@ -39,7 +60,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -48,9 +69,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 20px 40px;
 }
 
@@ -61,8 +82,8 @@ body {
 }
 
 .web__container .text_container .logo {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 .web__container .text_container .logo img {
@@ -79,13 +100,14 @@ body {
 .web__container .text_container .down_arrow {
   font-size: 40px;
   color: #fff;
+  margin-top: 50px;
 }
 
 .web__container .text_container .start_btn {
   border: none;
   font-size: 14px;
   font-weight: 500;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
   position: relative;
   padding: 15px 30px;
@@ -113,5 +135,6 @@ body {
 .web__container .text_container .und_text {
   font-weight: normal;
   letter-spacing: 1px;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
