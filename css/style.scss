@@ -59,34 +59,30 @@ body {
         width: 100%;
         height: 100%;
         display: flex;
-        overflow-x: hidden;
         text-align: center;
         align-items: center;
         flex-direction: column;
-        justify-content: flex-start;
-        padding: 20px 40px;
-        .kik_title {
-            color: #0ff;
-            font-size: 18px;
-            font-weight: bold;
-        }
+        justify-content: center;
+        padding: 20px;
         .logo {
             width: 300px;
             height: 300px;
+            margin-top: 20px;
             img {
                 width: 100%;
                 height: 100%;
             }
         }
-        h1 {
-            font-size: 45px;
-            font-weight: bold;
+        .und_text {
+            font-weight: normal;
             letter-spacing: 1px;
+            font-size: 25px;
+            margin-top: 20px;
         }
         .down_arrow {
             font-size: 40px;
             color: #fff;
-            margin-top: 50px;
+            margin-top: 20px;
         }
         .start_btn {
             border: none;
@@ -95,7 +91,7 @@ body {
             margin-top: 20px;
             text-align: center;
             position: relative;
-            padding: 15px 30px;
+            padding: 15px 50px;
             letter-spacing: 3px;
             display: inline-block;
             text-transform: uppercase;
@@ -110,11 +106,6 @@ body {
             &:active {
                 transform: scale(0.95);
             }
-        }
-        .und_text {
-            font-weight: normal;
-            letter-spacing: 1px;
-            margin-top: 50px;
         }
     }
 }

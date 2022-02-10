@@ -106,7 +106,7 @@ body {
   letter-spacing: 1px;
 }
 
-.main__container .main__navbar .search_movie i {
+.main__container .main__navbar .search_movie a {
   position: absolute;
   color: #fff;
   left: 15px;
@@ -115,7 +115,7 @@ body {
 
 .main__container .main__head_block {
   width: 100%;
-  padding: 200px 100px 50px 100px;
+  padding: 50px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,6 +125,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 200px;
 }
 
 .main__container .main__head_block .block_text_side {
@@ -579,8 +580,8 @@ body {
 
 .main__container .new__media .cardon_box_block .movie_box .btn_quality .btn_quality_choose button input {
   cursor: pointer;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
 }
 
 .main__container .new__media .cardon_box_block .movie_box .btn_quality .btn_quality_choose button label {

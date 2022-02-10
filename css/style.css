@@ -60,7 +60,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow-x: hidden;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -69,21 +68,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 20px 40px;
-}
-
-.web__container .text_container .kik_title {
-  color: #0ff;
-  font-size: 18px;
-  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
 }
 
 .web__container .text_container .logo {
   width: 300px;
   height: 300px;
+  margin-top: 20px;
 }
 
 .web__container .text_container .logo img {
@@ -91,16 +85,17 @@ body {
   height: 100%;
 }
 
-.web__container .text_container h1 {
-  font-size: 45px;
-  font-weight: bold;
+.web__container .text_container .und_text {
+  font-weight: normal;
   letter-spacing: 1px;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 .web__container .text_container .down_arrow {
   font-size: 40px;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .web__container .text_container .start_btn {
@@ -110,7 +105,7 @@ body {
   margin-top: 20px;
   text-align: center;
   position: relative;
-  padding: 15px 30px;
+  padding: 15px 50px;
   letter-spacing: 3px;
   display: inline-block;
   text-transform: uppercase;
@@ -130,11 +125,5 @@ body {
 .web__container .text_container .start_btn:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
-}
-
-.web__container .text_container .und_text {
-  font-weight: normal;
-  letter-spacing: 1px;
-  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
