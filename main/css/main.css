@@ -369,96 +369,31 @@ body {
 }
 
 .main__container .premiere__slide .swiper_slide_block {
+  width: 95%;
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.main__container .premiere__slide .swiper_slide_block .swiper-wrapper {
   width: 100%;
-  height: 85vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide {
-  opacity: .5;
-  min-width: 10px;
-  width: 30px;
   height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
-  margin: 0 5px;
+}
+
+.main__container .premiere__slide .swiper_slide_block .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.main__container .premiere__slide .swiper_slide_block .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.main__container .premiere__slide .swiper_slide_block .active {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  opacity: 1;
-  padding: 0 10px;
-  border-radius: 20px;
-  padding-bottom: 10px;
-}
-
-.main__container .premiere__slide .swiper_slide_block .nonActive {
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  opacity: .5;
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(1) {
-  background-image: url("../../image/spidermannowayhome.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(2) {
-  background-image: url("../../image/flash.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(3) {
-  background-image: url("../../image/notimetodie.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(4) {
-  background-image: url("../../image/venomtwo.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(5) {
-  background-image: url("../../image/enternals.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(6) {
-  background-image: url("../../image/squidgame.png");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(7) {
-  background-image: url("../../image/lacasedepapel.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(8) {
-  background-image: url("../../image/falconadnwintersoldier.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(9) {
-  background-image: url("../../image/batman.jpg");
-}
-
-.main__container .premiere__slide .swiper_slide_block .slide:nth-of-type(10) {
-  background-image: url("../../image/buckwild.jpg");
 }
 
 .main__container .new__media {

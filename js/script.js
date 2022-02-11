@@ -2,19 +2,24 @@
 AOS.init();
 
 
-// first swiper
-let i = 0;
+// big swiper
 
-$('.slide').click(function() {
-    $('.active').addClass('nonActive').find('span').empty()
-    $(this).removeClass('nonActive').addClass('active')
-    i = $(this).index()
-})
+let Swiper = 0;
 
-setItner = setInterval(go, 4000);
-
-function go() {
-    $('.active').addClass('nonActive').find('span').empty()
-    $($('.slide')[i % 10]).removeClass('nonActive').addClass('active')
-    i++;
-}
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
