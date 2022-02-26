@@ -76,10 +76,6 @@ body {
   letter-spacing: 1px;
 }
 
-.main__container .main__navbar .logo b:nth-child(4) {
-  color: #0f0;
-}
-
 .main__container .main__navbar .search_movie {
   width: 70%;
   position: relative;
@@ -388,12 +384,30 @@ body {
 .main__container .premiere__slide .swiper_slide_block .swiper-wrapper .swiper-slide {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .main__container .premiere__slide .swiper_slide_block .swiper-wrapper .swiper-slide img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  -webkit-backdrop-filter: blur(0.5 #000);
+          backdrop-filter: blur(0.5 #000);
+}
+
+.main__container .premiere__slide .swiper_slide_block .swiper-wrapper .swiper-slide i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: #999;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000;
+  border-radius: 100%;
+  background-color: #17202A;
 }
 
 .main__container .new__media {

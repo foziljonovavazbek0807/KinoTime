@@ -76,10 +76,6 @@ body {
   letter-spacing: 1px;
 }
 
-.basic__container .basic__navbar .logo b:nth-child(4) {
-  color: #0f0;
-}
-
 .basic__container .basic__navbar .search_movie {
   width: 70%;
   position: relative;
