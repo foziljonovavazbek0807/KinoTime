@@ -98,7 +98,7 @@ body {
   width: 100%;
   outline: none;
   padding: 8px 45px;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 2px solid #fff;
   color: #fff;
   font-size: 20px;
@@ -115,8 +115,8 @@ body {
 
 .prime__container .watch__media {
   width: 100%;
-  padding: 20px;
-  margin-top: 50px;
+  padding: 30px;
+  margin-top: 20px;
 }
 
 .prime__container .watch__media .pro_title {
@@ -139,34 +139,33 @@ body {
 
 .prime__container .watch__media .movie_banner {
   width: 100%;
-  height: 680px;
-  padding: 50px;
+  padding: 0 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .prime__container .watch__media .movie_banner .movie_mp4 {
-  width: 70%;
-  height: 100%;
-}
-
-.prime__container .watch__media .movie_banner .movie_mp4 img {
-  width: 100%;
-  height: 100%;
+  width: 69%;
+  border: 2px solid red;
   border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .prime__container .watch__media .movie_banner .movie_about {
   width: 29%;
-  height: 100%;
   border-radius: 20px;
   padding: 15px;
   position: relative;
@@ -195,6 +194,19 @@ body {
 .prime__container .watch__media .movie_banner .movie_about .icon_text i {
   font-size: 40px;
   color: #fff;
+}
+
+.prime__container .watch__media .movie_banner .movie_about .icon_text span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prime__container .watch__media .movie_banner .movie_about .icon_text span:nth-child(2) {
+  margin-left: 20px;
 }
 
 .prime__container .watch__media .movie_banner .movie_about .icon_text label {
@@ -249,8 +261,8 @@ body {
 
 .prime__container .other__media {
   width: 100%;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 30px;
+  margin-top: 20px;
 }
 
 .prime__container .other__media .pro_title {
@@ -285,23 +297,23 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 20px;
-  padding: 0 50px;
+  padding: 0 120px;
 }
 
 .prime__container .other__media .cardon_box_block .movie_box {
-  width: 19%;
+  width: 24%;
   margin-top: 50px;
   background-color: #000;
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .prime__container .other__media .cardon_box_block .movie_box img {
   width: 100%;
-  height: 250px;
-  border-radius: 15px;
+  height: 320px;
+  border-radius: 20px;
 }
 
 .prime__container .other__media .cardon_box_block .movie_box .film_heading {
@@ -316,66 +328,7 @@ body {
   text-align: center;
 }
 
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality {
-  width: 100%;
-  margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality .btn_quality_choose {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 10px;
-}
-
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality .btn_quality_choose button {
-  background-color: #17202A;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 30%;
-  border: none;
-  padding: 8px;
-  border-radius: 20px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality .btn_quality_choose button input {
-  cursor: pointer;
-  width: 15px;
-  height: 15px;
-}
-
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality .btn_quality_choose button label {
-  font-size: 12px;
-  font-weight: normal;
-}
-
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality .btn_watch {
+.prime__container .other__media .cardon_box_block .movie_box .btn_watch {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -388,15 +341,15 @@ body {
           justify-content: center;
   margin-top: 15px;
   background-color: #800080c0;
-  padding: 8px;
-  border-radius: 20px;
+  padding: 10px 0;
+  border-radius: 10px;
   font-weight: normal;
   font-size: 15px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.prime__container .other__media .cardon_box_block .movie_box .btn_quality .btn_watch:hover {
+.prime__container .other__media .cardon_box_block .movie_box .btn_watch:hover {
   background-color: #800080;
 }
 
@@ -492,7 +445,7 @@ body {
   font-size: 25px;
   position: -webkit-sticky;
   position: sticky;
-  bottom: 12%;
+  bottom: 100px;
   z-index: 100;
   float: right;
 }

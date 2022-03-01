@@ -77,7 +77,6 @@ body {
 .web__container .text_container .logo {
   width: 300px;
   height: 300px;
-  margin-top: 20px;
 }
 
 .web__container .text_container .logo img {
@@ -95,7 +94,7 @@ body {
 .web__container .text_container .down_arrow {
   font-size: 40px;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .web__container .text_container .start_btn {
