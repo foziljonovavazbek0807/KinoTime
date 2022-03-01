@@ -272,6 +272,35 @@ body {
   border-bottom: 2px solid #fff;
 }
 
+.main__container .premiere__sli .premiere_triller {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0 120px;
+}
+
+.main__container .premiere__sli .premiere_triller .premiere_triller-side {
+  width: 49%;
+  height: 320px;
+  margin-top: 30px;
+}
+
+.main__container .premiere__sli .premiere_triller .premiere_triller-side img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
 .main__container .new__media {
   width: 100%;
   padding: 30px;
